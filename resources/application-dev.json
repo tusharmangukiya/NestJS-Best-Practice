@@ -1,0 +1,16 @@
+{    
+
+    "LOGGER_FILE": "loggedin.yaml",
+    "SERVER":{
+      "DOMAIN":"127.0.0.1",
+      "PORT":4000
+    },
+    "DB":{
+      "TYPE": "postgres",
+      "HOST":  "localhost",
+      "PORT": "5432",
+      "NAME": "schoolDB",
+      "SYNCHRONIZE": false
+    }
+    
+}

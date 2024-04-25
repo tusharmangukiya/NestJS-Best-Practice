@@ -1,0 +1,112 @@
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-24 11:37:38 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-24 11:37:38 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-24 11:53:03 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-24 11:53:03 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-24 11:57:41 [info] [DepartmentController] [None] Enter: In addDepartment method
+[Build] 1.0 -2023-05-24 11:57:41 [info] [DepartmentService] [None] Enter: In addDepartment method
+[Build] 1.0 -2023-05-24 11:57:41 [info] [DepartmentDao] [None] Enter: In addDepartment method
+[Build] 1.0 -2023-05-24 11:57:41 [info] [DepartmentDao] [None] Exit: From addDepartment method
+[Build] 1.0 -2023-05-24 11:57:41 [debug] [DepartmentService] [None] department service response {"name":"dept_may-24","id":"a8d83482-7032-41c7-9356-e9fe316e699e","created_at":"2023-05-24T06:27:41.955Z"}
+[Build] 1.0 -2023-05-24 11:57:41 [info] [DepartmentService] [None] Exit: From addDepartment method
+[Build] 1.0 -2023-05-24 11:57:41 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-05-24 11:57:41 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-24 11:57:41 [debug] [ResponseUtility] [None] Method type 1
+[Build] 1.0 -2023-05-24 11:57:41 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-24 11:57:41 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-24 11:57:41 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"dept_may-24","id":"a8d83482-7032-41c7-9356-e9fe316e699e","created_at":"2023-05-24T06:27:41.955Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-24 11:57:41 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-05-24 11:57:41 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept_may-24","id":"a8d83482-7032-41c7-9356-e9fe316e699e","created_at":"2023-05-24T06:27:41.955Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-24 11:57:41 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept_may-24","id":"a8d83482-7032-41c7-9356-e9fe316e699e","created_at":"2023-05-24T06:27:41.955Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-24 11:57:41 [info] [DepartmentController] [None] Exit: From addDepartment method
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-24 13:31:06 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-24 13:31:06 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-24 13:32:44 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-24 13:32:44 [info] [NestApplication] [None] Nest application successfully started

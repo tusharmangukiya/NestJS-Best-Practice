@@ -1,0 +1,160 @@
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/department/:id, GET} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacherDetails, POST} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-06-09 11:04:53 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-06-09 11:04:53 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-06-09 17:08:03 [info] [DepartmentController] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:08:03 [info] [DepartmentService] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:08:03 [info] [DepartmentDao] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:08:03 [info] [DepartmentDao] [None] Exit: From getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:08:03 [debug] [DepartmentService] [None] department service response {"name":"test1238","created_at":"2023-05-19T11:09:58.904Z"}
+[Build] 1.0 -2023-06-09 17:08:03 [info] [DepartmentService] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:08:03 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-09 17:08:03 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:08:03 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-09 17:08:03 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:08:03 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-09 17:08:03 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"test1238","created_at":"2023-05-19T11:09:58.904Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:08:03 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-09 17:08:03 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"test1238","created_at":"2023-05-19T11:09:58.904Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:08:03 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"test1238","created_at":"2023-05-19T11:09:58.904Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:08:03 [info] [DepartmentController] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:11:39 [info] [DepartmentController] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:11:39 [info] [DepartmentService] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:11:39 [info] [DepartmentDao] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:11:39 [info] [DepartmentDao] [None] Exit: From getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:11:39 [debug] [DepartmentService] [None] department service response {"name":"test1238","created_at":"2023-05-19T11:09:58.904Z"}
+[Build] 1.0 -2023-06-09 17:11:39 [info] [DepartmentService] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:11:39 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-09 17:11:39 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:11:39 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-09 17:11:39 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:11:39 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-09 17:11:39 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"test1238","created_at":"2023-05-19T11:09:58.904Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:11:39 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-09 17:11:39 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"test1238","created_at":"2023-05-19T11:09:58.904Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:11:39 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"test1238","created_at":"2023-05-19T11:09:58.904Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:11:39 [info] [DepartmentController] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/department/:id, GET} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacherDetails, POST} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-06-09 17:16:35 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-06-09 17:16:35 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-06-09 17:25:55 [info] [DepartmentController] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:25:55 [info] [DepartmentService] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:25:55 [info] [DepartmentDao] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:25:55 [info] [DepartmentDao] [None] Exit: From getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:25:55 [debug] [DepartmentService] [None] department service response {"name":"dept_may-24","created_at":"2023-05-24T06:27:41.955Z"}
+[Build] 1.0 -2023-06-09 17:25:55 [info] [DepartmentService] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:25:55 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-09 17:25:55 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:25:55 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-09 17:25:55 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:25:55 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-09 17:25:55 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"dept_may-24","created_at":"2023-05-24T06:27:41.955Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:25:55 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-09 17:25:55 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept_may-24","created_at":"2023-05-24T06:27:41.955Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:25:55 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept_may-24","created_at":"2023-05-24T06:27:41.955Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:25:55 [info] [DepartmentController] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:27:34 [info] [DepartmentController] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:27:34 [info] [DepartmentService] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:27:34 [info] [DepartmentDao] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:27:34 [info] [DepartmentDao] [None] Exit: From getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:27:34 [debug] [DepartmentService] [None] department service response {"name":"dept_may-24","created_at":"2023-05-24T06:27:41.955Z"}
+[Build] 1.0 -2023-06-09 17:27:34 [info] [DepartmentService] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:27:34 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-09 17:27:34 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:27:34 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-09 17:27:34 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:27:34 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-09 17:27:34 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"dept_may-24","created_at":"2023-05-24T06:27:41.955Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:27:34 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-09 17:27:34 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept_may-24","created_at":"2023-05-24T06:27:41.955Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:27:34 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept_may-24","created_at":"2023-05-24T06:27:41.955Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:27:34 [info] [DepartmentController] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:47:28 [info] [DepartmentController] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:47:28 [info] [DepartmentService] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:47:28 [info] [DepartmentDao] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:47:28 [info] [DepartmentDao] [None] Exit: From getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:47:28 [debug] [DepartmentService] [None] department service response {"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"}
+[Build] 1.0 -2023-06-09 17:47:28 [info] [DepartmentService] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:47:28 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-09 17:47:28 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:47:29 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-09 17:47:29 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:47:29 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-09 17:47:29 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:47:29 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-09 17:47:29 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:47:29 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:47:29 [info] [DepartmentController] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:48:50 [info] [DepartmentController] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:48:50 [info] [DepartmentService] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:48:50 [info] [DepartmentDao] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:48:50 [info] [DepartmentDao] [None] Exit: From getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:48:50 [debug] [DepartmentService] [None] department service response {"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"}
+[Build] 1.0 -2023-06-09 17:48:50 [info] [DepartmentService] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:48:50 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-09 17:48:50 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:48:50 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-09 17:48:50 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:48:50 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-09 17:48:50 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:48:50 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-09 17:48:50 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:48:50 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:48:50 [info] [DepartmentController] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:49:45 [info] [DepartmentController] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:49:45 [info] [DepartmentService] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-09 17:49:45 [info] [DepartmentDao] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:49:45 [info] [DepartmentDao] [None] Exit: From getAllDepartment in dao method
+[Build] 1.0 -2023-06-09 17:49:45 [debug] [DepartmentService] [None] department service response {"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"}
+[Build] 1.0 -2023-06-09 17:49:45 [info] [DepartmentService] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-09 17:49:45 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-09 17:49:45 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:49:45 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-09 17:49:45 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-09 17:49:45 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-09 17:49:45 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:49:45 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-09 17:49:45 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:49:45 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept 888","created_at":"2023-05-15T09:25:19.999Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-09 17:49:45 [info] [DepartmentController] [None] Exit: From getDepartmentById method

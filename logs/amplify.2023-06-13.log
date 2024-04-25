@@ -1,0 +1,161 @@
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/department/:id, GET} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacherDetails, POST} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-06-13 12:45:28 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-06-13 12:45:28 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-06-13 12:47:29 [info] [DepartmentController] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-13 12:47:29 [info] [DepartmentService] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-13 12:47:29 [info] [DepartmentDao] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-13 12:47:29 [info] [DepartmentDao] [None] Exit: From getAllDepartment in dao method
+[Build] 1.0 -2023-06-13 12:47:29 [debug] [DepartmentService] [None] department service response {"name":"dept_may-241212","created_at":"2023-06-08T07:33:28.777Z"}
+[Build] 1.0 -2023-06-13 12:47:29 [info] [DepartmentService] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-13 12:47:29 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-13 12:47:29 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 12:47:29 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-13 12:47:29 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 12:47:29 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-13 12:47:29 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"dept_may-241212","created_at":"2023-06-08T07:33:28.777Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 12:47:29 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-13 12:47:29 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept_may-241212","created_at":"2023-06-08T07:33:28.777Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 12:47:29 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept_may-241212","created_at":"2023-06-08T07:33:28.777Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 12:47:29 [info] [DepartmentController] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-13 12:48:04 [info] [DepartmentController] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-13 12:48:04 [info] [DepartmentService] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-13 12:48:04 [info] [DepartmentDao] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-13 12:48:04 [info] [DepartmentDao] [None] Exit: From getAllDepartment in dao method
+[Build] 1.0 -2023-06-13 12:48:04 [debug] [DepartmentService] [None] department service response {"name":"meth","created_at":"2023-05-19T06:26:07.802Z"}
+[Build] 1.0 -2023-06-13 12:48:04 [info] [DepartmentService] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-13 12:48:04 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-13 12:48:04 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 12:48:04 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-13 12:48:04 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 12:48:04 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-13 12:48:04 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"meth","created_at":"2023-05-19T06:26:07.802Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 12:48:04 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-13 12:48:04 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"meth","created_at":"2023-05-19T06:26:07.802Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 12:48:04 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"meth","created_at":"2023-05-19T06:26:07.802Z"},"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 12:48:04 [info] [DepartmentController] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-13 16:47:13 [info] [ResponseUtility] [None] Logger class constructor :: ResponseUtility
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Logger class constructor :: Application
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Starting Nest application...
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] AppModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] DbConfig dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] TypeOrmModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] CommonModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] ConfigHostModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] ConfigurationModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] ConfigModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] TypeOrmCoreModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] TypeOrmModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] TypeOrmModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] TypeOrmModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] TypeOrmModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] TeacherModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] DepartmentModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] StudentModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] CourseModule dependencies initialized
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/department/:id, GET} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/teacher/addTeacherDetails, POST} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-06-13 16:47:13 [info] [Application] [None] Nest application successfully started
+[Build] 1.0 -2023-06-13 16:50:59 [info] [ResponseUtility] [None] Enter: In addDepartment method
+[Build] 1.0 -2023-06-13 16:50:59 [info] [ResponseUtility] [None] Enter: In addDepartment method
+[Build] 1.0 -2023-06-13 16:50:59 [info] [ResponseUtility] [None] Enter: In addDepartment method
+[Build] 1.0 -2023-06-13 16:50:59 [info] [ResponseUtility] [None] Exit: From addDepartment method
+[Build] 1.0 -2023-06-13 16:50:59 [debug] [ResponseUtility] [None] Department service response :: {"name":"dept_jun_13"}
+[Build] 1.0 -2023-06-13 16:50:59 [info] [ResponseUtility] [None] Exit: From addDepartment method
+[Build] 1.0 -2023-06-13 16:50:59 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-13 16:50:59 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 16:50:59 [debug] [ResponseUtility] [None] Method type 1
+[Build] 1.0 -2023-06-13 16:50:59 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 16:50:59 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-06-13 16:50:59 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"dept_jun_13"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-06-13 16:50:59 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-13 16:50:59 [debug] [ResponseUtility] [None] Department response {"res_data":{"data":{"name":"dept_jun_13"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-06-13 16:50:59 [debug] [ResponseUtility] [None] Department response {"res_data":{"data":{"name":"dept_jun_13"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-06-13 16:50:59 [info] [ResponseUtility] [None] Exit: From addDepartment method
+[Build] 1.0 -2023-06-13 16:56:25 [info] [ResponseUtility] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-13 16:56:25 [info] [ResponseUtility] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-13 16:56:25 [info] [ResponseUtility] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-13 16:56:25 [info] [ResponseUtility] [None] Exit: From getAllDepartment in dao method
+[Build] 1.0 -2023-06-13 16:56:25 [debug] [ResponseUtility] [None] department service response {"name":"meth","created_at":"2023-05-19T06:26:07.802Z"}
+[Build] 1.0 -2023-06-13 16:56:25 [info] [ResponseUtility] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-13 16:56:25 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-13 16:56:25 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 16:56:25 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-13 16:56:25 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 16:56:25 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-13 16:56:25 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"meth","created_at":"2023-05-19T06:26:07.802Z"},"message":"Department fetch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 16:56:25 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-13 16:56:25 [debug] [ResponseUtility] [None] Department response {"res_data":{"data":{"name":"meth","created_at":"2023-05-19T06:26:07.802Z"},"message":"Department fetch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 16:56:25 [debug] [ResponseUtility] [None] Department response {"res_data":{"data":{"name":"meth","created_at":"2023-05-19T06:26:07.802Z"},"message":"Department fetch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 16:56:25 [info] [ResponseUtility] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-13 16:58:21 [info] [ResponseUtility] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-13 16:58:21 [info] [ResponseUtility] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-13 16:58:21 [info] [ResponseUtility] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-13 16:58:21 [debug] [ResponseUtility] [None] department service response {"error_code":"1006 -@- Please ensure that you provide a valid database.","exp":{"Code":"1006 ","Message":" Please ensure that you provide a valid database."}}
+[Build] 1.0 -2023-06-13 16:58:21 [info] [ResponseUtility] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-13 16:58:21 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-13 16:58:21 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 16:58:21 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-13 16:58:21 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 16:58:21 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-13 16:58:21 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"error_code":"1006 -@- Please ensure that you provide a valid database.","exp":{"Code":"1006 ","Message":" Please ensure that you provide a valid database."}},"message":"Department fetch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 16:58:21 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-13 16:58:21 [debug] [ResponseUtility] [None] Department response {"res_data":{"data":{"error_code":"1006 -@- Please ensure that you provide a valid database.","exp":{"Code":"1006 ","Message":" Please ensure that you provide a valid database."}},"message":"Department fetch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 16:58:21 [debug] [ResponseUtility] [None] Department response {"res_data":{"data":{"error_code":"1006 -@- Please ensure that you provide a valid database.","exp":{"Code":"1006 ","Message":" Please ensure that you provide a valid database."}},"message":"Department fetch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 16:58:21 [info] [ResponseUtility] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-13 16:58:37 [info] [ResponseUtility] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-13 16:58:37 [info] [ResponseUtility] [None] Enter: In getDepartmentById method
+[Build] 1.0 -2023-06-13 16:58:37 [info] [ResponseUtility] [None] Enter: In getAllDepartment in dao method
+[Build] 1.0 -2023-06-13 16:58:37 [debug] [ResponseUtility] [None] department service response {"error_code":"1006 -@- Please ensure that you provide a valid database.","exp":{"Code":"1006 ","Message":" Please ensure that you provide a valid database."}}
+[Build] 1.0 -2023-06-13 16:58:37 [info] [ResponseUtility] [None] Exit: From getDepartmentById method
+[Build] 1.0 -2023-06-13 16:58:37 [info] [ResponseUtility] [None] Enter: In getResponse method
+[Build] 1.0 -2023-06-13 16:58:37 [info] [ResponseUtility] [None] Enter: In Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 16:58:37 [debug] [ResponseUtility] [None] Method type 0
+[Build] 1.0 -2023-06-13 16:58:37 [info] [ResponseUtility] [None] Exit: From End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-06-13 16:58:37 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-06-13 16:58:37 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"error_code":"1006 -@- Please ensure that you provide a valid database.","exp":{"Code":"1006 ","Message":" Please ensure that you provide a valid database."}},"message":"Department fetch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 16:58:37 [info] [ResponseUtility] [None] Exit: From getResponse method
+[Build] 1.0 -2023-06-13 16:58:37 [debug] [ResponseUtility] [None] Department response {"res_data":{"data":{"error_code":"1006 -@- Please ensure that you provide a valid database.","exp":{"Code":"1006 ","Message":" Please ensure that you provide a valid database."}},"message":"Department fetch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 16:58:37 [debug] [ResponseUtility] [None] Department response {"res_data":{"data":{"error_code":"1006 -@- Please ensure that you provide a valid database.","exp":{"Code":"1006 ","Message":" Please ensure that you provide a valid database."}},"message":"Department fetch successfully.","status_code":200}}
+[Build] 1.0 -2023-06-13 16:58:37 [info] [ResponseUtility] [None] Exit: From getDepartmentById method

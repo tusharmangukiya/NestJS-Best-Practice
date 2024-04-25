@@ -1,0 +1,805 @@
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 11:45:03 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 11:45:03 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 13:42:12 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 13:42:12 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 13:49:00 [info] [DepartmentController] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 13:49:00 [info] [DepartmentService] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 13:49:00 [info] [DepartmentDao] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 13:49:00 [info] [DepartmentDao] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 13:49:00 [debug] [DepartmentService] [None] department service response {"name":"dept 000","id":"d9537996-fd61-4252-aa79-3e7993cc226c","created_at":"2023-05-18T08:19:00.055Z"}
+[Build] 1.0 -2023-05-18 13:49:00 [info] [DepartmentService] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 13:49:00 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 13:49:00 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:49:00 [debug] [ResponseUtility] [None] Method type POST
+[Build] 1.0 -2023-05-18 13:49:00 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:49:00 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-18 13:49:00 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"dept 000","id":"d9537996-fd61-4252-aa79-3e7993cc226c","created_at":"2023-05-18T08:19:00.055Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:49:00 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 13:49:00 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept 000","id":"d9537996-fd61-4252-aa79-3e7993cc226c","created_at":"2023-05-18T08:19:00.055Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:49:00 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept 000","id":"d9537996-fd61-4252-aa79-3e7993cc226c","created_at":"2023-05-18T08:19:00.055Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:49:00 [info] [DepartmentController] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 13:49:20 [info] [DepartmentController] [None] Enter editDepartment method
+[Build] 1.0 -2023-05-18 13:49:20 [info] [DepartmentService] [None] Enter editDepartment method
+[Build] 1.0 -2023-05-18 13:49:20 [info] [DepartmentDao] [None] Enter editDepartment in dao method
+[Build] 1.0 -2023-05-18 13:49:20 [info] [DepartmentDao] [None] End editDepartment in dao method
+[Build] 1.0 -2023-05-18 13:49:20 [debug] [DepartmentService] [None] department service response {"generatedMaps":[],"raw":[],"affected":1}
+[Build] 1.0 -2023-05-18 13:49:20 [info] [DepartmentService] [None] End editDepartment method
+[Build] 1.0 -2023-05-18 13:49:20 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 13:49:20 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:49:20 [debug] [ResponseUtility] [None] Method type POST
+[Build] 1.0 -2023-05-18 13:49:20 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:49:20 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-18 13:49:20 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"generatedMaps":[],"raw":[],"affected":1},"message":"Department updated successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:49:20 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 13:49:20 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"generatedMaps":[],"raw":[],"affected":1},"message":"Department updated successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:49:20 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"generatedMaps":[],"raw":[],"affected":1},"message":"Department updated successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:49:20 [info] [DepartmentController] [None] End editDepartment method
+[Build] 1.0 -2023-05-18 13:49:32 [info] [DepartmentController] [None] Enter remove department method
+[Build] 1.0 -2023-05-18 13:49:32 [info] [DepartmentService] [None] Enter deleteDepartment service method
+[Build] 1.0 -2023-05-18 13:49:32 [info] [DepartmentDao] [None] Enter deleteDepartment in dao method
+[Build] 1.0 -2023-05-18 13:49:32 [info] [DepartmentDao] [None] End deleteDepartment in dao method
+[Build] 1.0 -2023-05-18 13:49:32 [debug] [DepartmentService] [None] department service response {"raw":[],"affected":1}
+[Build] 1.0 -2023-05-18 13:49:32 [info] [DepartmentService] [None] End editDepartment service method
+[Build] 1.0 -2023-05-18 13:49:32 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 13:49:32 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:49:32 [debug] [ResponseUtility] [None] Method type DELETE
+[Build] 1.0 -2023-05-18 13:49:32 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:49:32 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-05-18 13:49:32 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"raw":[],"affected":1},"message":"Department removed successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:49:32 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 13:49:32 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"raw":[],"affected":1},"message":"Department removed successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:49:32 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"raw":[],"affected":1},"message":"Department removed successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:49:32 [info] [DepartmentController] [None] End delete department method
+[Build] 1.0 -2023-05-18 13:49:38 [info] [DepartmentController] [None] Enter get all department method
+[Build] 1.0 -2023-05-18 13:49:38 [info] [DepartmentService] [None] Enter getAllDepartment method
+[Build] 1.0 -2023-05-18 13:49:38 [info] [DepartmentDao] [None] Enter getAllDepartment in dao method
+[Build] 1.0 -2023-05-18 13:49:38 [info] [DepartmentDao] [None] End getAllDepartment in dao method
+[Build] 1.0 -2023-05-18 13:49:38 [debug] [DepartmentService] [None] department service response [{"id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","name":"sci","created_at":"2023-05-05T11:03:49.532Z","student":[{"id":"63ae7015-45f6-4c79-8117-c071c322d038","email":"akshay3@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:50:40.948Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"78f15671-4010-4a30-abe7-00dea2611e24","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:52:38.313Z","courses":[{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"}]},{"id":"9f28b5ef-cb69-45ad-a7af-248e5c9cc572","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:53:59.698Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"8f6080da-3e43-49bd-93c7-7faea33b67af","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:54:39.792Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"2e7eba6f-1532-4d84-a545-e9e6e3ebe6cd","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:55:18.731Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"402b85d2-603d-4907-b908-fc51d99900c8","email":"satyam@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:19:50.231Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"3c5ba9c0-2e1d-4739-9829-cb255ce44d99","email":"savdi@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:23:06.609Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"e93aa0fa-5e1b-4571-b3dd-f50f349c0d2f","email":"savdi123@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T12:46:16.369Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"c37970f4-7b1f-4856-a920-bbf15a3d2109","email":"test666@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T13:36:43.906Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"48184ca3-bd2f-4bf0-81a8-88a5ab80ec4c","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:17:08.820Z","courses":[]},{"id":"02af83b9-8ced-4851-bc78-cdbe6de2e4ba","email":"tushar@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-05T11:27:10.804Z","courses":[]},{"id":"55fe5d0e-f2ec-43a9-abc9-ff527a54a467","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.740Z","courses":[]},{"id":"6fb788ae-e179-426e-8cdc-75bc0777ced7","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:05:50.326Z","courses":[]},{"id":"7b3d2aed-1e0d-4ec5-906e-b5a3ebda1b26","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.728Z","courses":[]}]},{"id":"362857a4-e794-401c-801e-a2cee617323b","name":"dept 112","created_at":"2023-05-15T06:45:41.818Z","student":[]},{"id":"682bf564-2d3c-44a0-8412-9c8a02d89080","name":"dept 888","created_at":"2023-05-15T09:25:19.999Z","student":[]},{"id":"be4b54a2-2ba8-4259-af79-6821907b7c85","name":"dept 10","created_at":"2023-05-12T10:07:27.415Z","student":[]},{"id":"16e9976b-5d09-4b00-bb1d-8cae0004e79f","name":"dept 777","created_at":"2023-05-15T06:50:13.181Z","student":[]},{"id":"24f89f9b-3adc-4d02-aad3-7fc16ddb84e3","name":"dept 11","created_at":"2023-05-12T10:13:05.895Z","student":[]}]
+[Build] 1.0 -2023-05-18 13:49:38 [info] [DepartmentService] [None] End getAllDepartment method
+[Build] 1.0 -2023-05-18 13:49:38 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 13:49:38 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:49:38 [debug] [ResponseUtility] [None] Method type GET
+[Build] 1.0 -2023-05-18 13:49:38 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:49:38 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-05-18 13:49:38 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":[{"id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","name":"sci","created_at":"2023-05-05T11:03:49.532Z","student":[{"id":"63ae7015-45f6-4c79-8117-c071c322d038","email":"akshay3@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:50:40.948Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"78f15671-4010-4a30-abe7-00dea2611e24","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:52:38.313Z","courses":[{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"}]},{"id":"9f28b5ef-cb69-45ad-a7af-248e5c9cc572","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:53:59.698Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"8f6080da-3e43-49bd-93c7-7faea33b67af","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:54:39.792Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"2e7eba6f-1532-4d84-a545-e9e6e3ebe6cd","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:55:18.731Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"402b85d2-603d-4907-b908-fc51d99900c8","email":"satyam@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:19:50.231Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"3c5ba9c0-2e1d-4739-9829-cb255ce44d99","email":"savdi@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:23:06.609Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"e93aa0fa-5e1b-4571-b3dd-f50f349c0d2f","email":"savdi123@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T12:46:16.369Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"c37970f4-7b1f-4856-a920-bbf15a3d2109","email":"test666@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T13:36:43.906Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"48184ca3-bd2f-4bf0-81a8-88a5ab80ec4c","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:17:08.820Z","courses":[]},{"id":"02af83b9-8ced-4851-bc78-cdbe6de2e4ba","email":"tushar@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-05T11:27:10.804Z","courses":[]},{"id":"55fe5d0e-f2ec-43a9-abc9-ff527a54a467","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.740Z","courses":[]},{"id":"6fb788ae-e179-426e-8cdc-75bc0777ced7","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:05:50.326Z","courses":[]},{"id":"7b3d2aed-1e0d-4ec5-906e-b5a3ebda1b26","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.728Z","courses":[]}]},{"id":"362857a4-e794-401c-801e-a2cee617323b","name":"dept 112","created_at":"2023-05-15T06:45:41.818Z","student":[]},{"id":"682bf564-2d3c-44a0-8412-9c8a02d89080","name":"dept 888","created_at":"2023-05-15T09:25:19.999Z","student":[]},{"id":"be4b54a2-2ba8-4259-af79-6821907b7c85","name":"dept 10","created_at":"2023-05-12T10:07:27.415Z","student":[]},{"id":"16e9976b-5d09-4b00-bb1d-8cae0004e79f","name":"dept 777","created_at":"2023-05-15T06:50:13.181Z","student":[]},{"id":"24f89f9b-3adc-4d02-aad3-7fc16ddb84e3","name":"dept 11","created_at":"2023-05-12T10:13:05.895Z","student":[]}],"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:49:38 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 13:49:38 [debug] [DepartmentController] [None] Department response {"res_data":{"data":[{"id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","name":"sci","created_at":"2023-05-05T11:03:49.532Z","student":[{"id":"63ae7015-45f6-4c79-8117-c071c322d038","email":"akshay3@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:50:40.948Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"78f15671-4010-4a30-abe7-00dea2611e24","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:52:38.313Z","courses":[{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"}]},{"id":"9f28b5ef-cb69-45ad-a7af-248e5c9cc572","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:53:59.698Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"8f6080da-3e43-49bd-93c7-7faea33b67af","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:54:39.792Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"2e7eba6f-1532-4d84-a545-e9e6e3ebe6cd","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:55:18.731Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"402b85d2-603d-4907-b908-fc51d99900c8","email":"satyam@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:19:50.231Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"3c5ba9c0-2e1d-4739-9829-cb255ce44d99","email":"savdi@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:23:06.609Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"e93aa0fa-5e1b-4571-b3dd-f50f349c0d2f","email":"savdi123@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T12:46:16.369Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"c37970f4-7b1f-4856-a920-bbf15a3d2109","email":"test666@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T13:36:43.906Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"48184ca3-bd2f-4bf0-81a8-88a5ab80ec4c","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:17:08.820Z","courses":[]},{"id":"02af83b9-8ced-4851-bc78-cdbe6de2e4ba","email":"tushar@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-05T11:27:10.804Z","courses":[]},{"id":"55fe5d0e-f2ec-43a9-abc9-ff527a54a467","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.740Z","courses":[]},{"id":"6fb788ae-e179-426e-8cdc-75bc0777ced7","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:05:50.326Z","courses":[]},{"id":"7b3d2aed-1e0d-4ec5-906e-b5a3ebda1b26","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.728Z","courses":[]}]},{"id":"362857a4-e794-401c-801e-a2cee617323b","name":"dept 112","created_at":"2023-05-15T06:45:41.818Z","student":[]},{"id":"682bf564-2d3c-44a0-8412-9c8a02d89080","name":"dept 888","created_at":"2023-05-15T09:25:19.999Z","student":[]},{"id":"be4b54a2-2ba8-4259-af79-6821907b7c85","name":"dept 10","created_at":"2023-05-12T10:07:27.415Z","student":[]},{"id":"16e9976b-5d09-4b00-bb1d-8cae0004e79f","name":"dept 777","created_at":"2023-05-15T06:50:13.181Z","student":[]},{"id":"24f89f9b-3adc-4d02-aad3-7fc16ddb84e3","name":"dept 11","created_at":"2023-05-12T10:13:05.895Z","student":[]}],"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:49:38 [debug] [DepartmentController] [None] Department response {"res_data":{"data":[{"id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","name":"sci","created_at":"2023-05-05T11:03:49.532Z","student":[{"id":"63ae7015-45f6-4c79-8117-c071c322d038","email":"akshay3@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:50:40.948Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"78f15671-4010-4a30-abe7-00dea2611e24","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:52:38.313Z","courses":[{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"}]},{"id":"9f28b5ef-cb69-45ad-a7af-248e5c9cc572","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:53:59.698Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"8f6080da-3e43-49bd-93c7-7faea33b67af","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:54:39.792Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"2e7eba6f-1532-4d84-a545-e9e6e3ebe6cd","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:55:18.731Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"402b85d2-603d-4907-b908-fc51d99900c8","email":"satyam@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:19:50.231Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"3c5ba9c0-2e1d-4739-9829-cb255ce44d99","email":"savdi@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:23:06.609Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"e93aa0fa-5e1b-4571-b3dd-f50f349c0d2f","email":"savdi123@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T12:46:16.369Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"c37970f4-7b1f-4856-a920-bbf15a3d2109","email":"test666@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T13:36:43.906Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"48184ca3-bd2f-4bf0-81a8-88a5ab80ec4c","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:17:08.820Z","courses":[]},{"id":"02af83b9-8ced-4851-bc78-cdbe6de2e4ba","email":"tushar@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-05T11:27:10.804Z","courses":[]},{"id":"55fe5d0e-f2ec-43a9-abc9-ff527a54a467","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.740Z","courses":[]},{"id":"6fb788ae-e179-426e-8cdc-75bc0777ced7","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:05:50.326Z","courses":[]},{"id":"7b3d2aed-1e0d-4ec5-906e-b5a3ebda1b26","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.728Z","courses":[]}]},{"id":"362857a4-e794-401c-801e-a2cee617323b","name":"dept 112","created_at":"2023-05-15T06:45:41.818Z","student":[]},{"id":"682bf564-2d3c-44a0-8412-9c8a02d89080","name":"dept 888","created_at":"2023-05-15T09:25:19.999Z","student":[]},{"id":"be4b54a2-2ba8-4259-af79-6821907b7c85","name":"dept 10","created_at":"2023-05-12T10:07:27.415Z","student":[]},{"id":"16e9976b-5d09-4b00-bb1d-8cae0004e79f","name":"dept 777","created_at":"2023-05-15T06:50:13.181Z","student":[]},{"id":"24f89f9b-3adc-4d02-aad3-7fc16ddb84e3","name":"dept 11","created_at":"2023-05-12T10:13:05.895Z","student":[]}],"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:49:38 [info] [DepartmentController] [None] End get all department method
+[Build] 1.0 -2023-05-18 13:49:45 [info] [CourseController] [None] Enter Add course method
+[Build] 1.0 -2023-05-18 13:49:45 [info] [CourseService] [None] Enter addCourse service method
+[Build] 1.0 -2023-05-18 13:49:45 [info] [CourseDao] [None] Enter addCourse method
+[Build] 1.0 -2023-05-18 13:49:45 [info] [CourseDao] [None] End addCourse method
+[Build] 1.0 -2023-05-18 13:49:45 [debug] [CourseService] [None] course service response {"name":"course 000","id":"2d0baad6-a5dc-4686-a03d-6d1c771e2f21","created_at":"2023-05-18T08:19:45.816Z"}
+[Build] 1.0 -2023-05-18 13:49:45 [info] [CourseService] [None] End addCourse service method
+[Build] 1.0 -2023-05-18 13:49:45 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 13:49:45 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:49:45 [debug] [ResponseUtility] [None] Method type POST
+[Build] 1.0 -2023-05-18 13:49:45 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:49:45 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-18 13:49:45 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"course 000","id":"2d0baad6-a5dc-4686-a03d-6d1c771e2f21","created_at":"2023-05-18T08:19:45.816Z"},"message":"Course created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:49:45 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 13:49:45 [debug] [CourseController] [None] Course response {"res_data":{"data":{"name":"course 000","id":"2d0baad6-a5dc-4686-a03d-6d1c771e2f21","created_at":"2023-05-18T08:19:45.816Z"},"message":"Course created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:49:45 [debug] [CourseController] [None] Course response {"res_data":{"data":{"name":"course 000","id":"2d0baad6-a5dc-4686-a03d-6d1c771e2f21","created_at":"2023-05-18T08:19:45.816Z"},"message":"Course created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:49:45 [info] [CourseController] [None] End Add course method
+[Build] 1.0 -2023-05-18 13:50:36 [info] [CourseController] [None] Enter edit course method
+[Build] 1.0 -2023-05-18 13:50:36 [info] [CourseService] [None] Enter editCourse service method
+[Build] 1.0 -2023-05-18 13:50:36 [info] [CourseDao] [None] Enter editCourse method
+[Build] 1.0 -2023-05-18 13:50:36 [info] [CourseDao] [None] End editCourse method
+[Build] 1.0 -2023-05-18 13:50:36 [debug] [CourseService] [None] course service response {"generatedMaps":[],"raw":[],"affected":1}
+[Build] 1.0 -2023-05-18 13:50:36 [info] [CourseService] [None] End editCourse service method
+[Build] 1.0 -2023-05-18 13:50:36 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 13:50:36 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:50:36 [debug] [ResponseUtility] [None] Method type POST
+[Build] 1.0 -2023-05-18 13:50:36 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:50:36 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-18 13:50:36 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"generatedMaps":[],"raw":[],"affected":1},"message":"Course updated successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:50:36 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 13:50:36 [debug] [CourseController] [None] Course response {"res_data":{"data":{"generatedMaps":[],"raw":[],"affected":1},"message":"Course updated successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:50:36 [debug] [CourseController] [None] Course response {"res_data":{"data":{"generatedMaps":[],"raw":[],"affected":1},"message":"Course updated successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 13:50:36 [info] [CourseController] [None] End edit course method
+[Build] 1.0 -2023-05-18 13:50:54 [info] [CourseController] [None] Enter remove course method
+[Build] 1.0 -2023-05-18 13:50:54 [info] [CourseService] [None] Enter deleteCourse service method
+[Build] 1.0 -2023-05-18 13:50:54 [info] [CourseDao] [None] Enter deleteCourse method
+[Build] 1.0 -2023-05-18 13:50:54 [info] [CourseDao] [None] End deleteCourse method
+[Build] 1.0 -2023-05-18 13:50:54 [debug] [CourseService] [None] course service response {"raw":[],"affected":1}
+[Build] 1.0 -2023-05-18 13:50:54 [info] [CourseService] [None] End editCourse service method
+[Build] 1.0 -2023-05-18 13:50:54 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 13:50:54 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:50:54 [debug] [ResponseUtility] [None] Method type DELETE
+[Build] 1.0 -2023-05-18 13:50:54 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:50:54 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-05-18 13:50:54 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"raw":[],"affected":1},"message":"Course removed successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:50:54 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 13:50:54 [debug] [CourseController] [None] Course response {"res_data":{"data":{"raw":[],"affected":1},"message":"Course removed successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:50:54 [debug] [CourseController] [None] Course response {"res_data":{"data":{"raw":[],"affected":1},"message":"Course removed successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:50:54 [info] [CourseController] [None] End delete course method
+[Build] 1.0 -2023-05-18 13:51:04 [info] [CourseController] [None] Enter get all course method
+[Build] 1.0 -2023-05-18 13:51:04 [info] [CourseService] [None] Enter getAllCourse service method
+[Build] 1.0 -2023-05-18 13:51:04 [info] [CourseDao] [None] Enter getAllCourse method
+[Build] 1.0 -2023-05-18 13:51:04 [info] [CourseDao] [None] End getAllCourse method
+[Build] 1.0 -2023-05-18 13:51:04 [debug] [CourseService] [None] course service response [{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"},{"id":"73b67656-9325-4309-8edf-2a646e6fc92d","name":"math","created_at":"2023-05-09T11:59:00.308Z"},{"id":"51ec1ad2-8a3f-4356-89fb-16527043449d","name":"hindi","created_at":"2023-05-09T11:59:06.758Z"},{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"},{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]
+[Build] 1.0 -2023-05-18 13:51:04 [info] [CourseService] [None] End getAllCourse service method
+[Build] 1.0 -2023-05-18 13:51:04 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 13:51:04 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:51:04 [debug] [ResponseUtility] [None] Method type GET
+[Build] 1.0 -2023-05-18 13:51:04 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:51:04 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-05-18 13:51:04 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":[{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"},{"id":"73b67656-9325-4309-8edf-2a646e6fc92d","name":"math","created_at":"2023-05-09T11:59:00.308Z"},{"id":"51ec1ad2-8a3f-4356-89fb-16527043449d","name":"hindi","created_at":"2023-05-09T11:59:06.758Z"},{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"},{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}],"message":"Course fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:51:04 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 13:51:04 [debug] [CourseController] [None] Course response {"res_data":{"data":[{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"},{"id":"73b67656-9325-4309-8edf-2a646e6fc92d","name":"math","created_at":"2023-05-09T11:59:00.308Z"},{"id":"51ec1ad2-8a3f-4356-89fb-16527043449d","name":"hindi","created_at":"2023-05-09T11:59:06.758Z"},{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"},{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}],"message":"Course fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:51:04 [debug] [CourseController] [None] Course response {"res_data":{"data":[{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"},{"id":"73b67656-9325-4309-8edf-2a646e6fc92d","name":"math","created_at":"2023-05-09T11:59:00.308Z"},{"id":"51ec1ad2-8a3f-4356-89fb-16527043449d","name":"hindi","created_at":"2023-05-09T11:59:06.758Z"},{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"},{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}],"message":"Course fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:51:04 [info] [CourseController] [None] End get all course method
+[Build] 1.0 -2023-05-18 13:51:05 [info] [CourseController] [None] Enter get all course method
+[Build] 1.0 -2023-05-18 13:51:05 [info] [CourseService] [None] Enter getAllCourse service method
+[Build] 1.0 -2023-05-18 13:51:05 [info] [CourseDao] [None] Enter getAllCourse method
+[Build] 1.0 -2023-05-18 13:51:05 [info] [CourseDao] [None] End getAllCourse method
+[Build] 1.0 -2023-05-18 13:51:05 [debug] [CourseService] [None] course service response [{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"},{"id":"73b67656-9325-4309-8edf-2a646e6fc92d","name":"math","created_at":"2023-05-09T11:59:00.308Z"},{"id":"51ec1ad2-8a3f-4356-89fb-16527043449d","name":"hindi","created_at":"2023-05-09T11:59:06.758Z"},{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"},{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]
+[Build] 1.0 -2023-05-18 13:51:05 [info] [CourseService] [None] End getAllCourse service method
+[Build] 1.0 -2023-05-18 13:51:05 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 13:51:05 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:51:05 [debug] [ResponseUtility] [None] Method type GET
+[Build] 1.0 -2023-05-18 13:51:05 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 13:51:05 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-05-18 13:51:05 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":[{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"},{"id":"73b67656-9325-4309-8edf-2a646e6fc92d","name":"math","created_at":"2023-05-09T11:59:00.308Z"},{"id":"51ec1ad2-8a3f-4356-89fb-16527043449d","name":"hindi","created_at":"2023-05-09T11:59:06.758Z"},{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"},{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}],"message":"Course fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:51:05 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 13:51:05 [debug] [CourseController] [None] Course response {"res_data":{"data":[{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"},{"id":"73b67656-9325-4309-8edf-2a646e6fc92d","name":"math","created_at":"2023-05-09T11:59:00.308Z"},{"id":"51ec1ad2-8a3f-4356-89fb-16527043449d","name":"hindi","created_at":"2023-05-09T11:59:06.758Z"},{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"},{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}],"message":"Course fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:51:05 [debug] [CourseController] [None] Course response {"res_data":{"data":[{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"},{"id":"73b67656-9325-4309-8edf-2a646e6fc92d","name":"math","created_at":"2023-05-09T11:59:00.308Z"},{"id":"51ec1ad2-8a3f-4356-89fb-16527043449d","name":"hindi","created_at":"2023-05-09T11:59:06.758Z"},{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"},{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}],"message":"Course fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 13:51:05 [info] [CourseController] [None] End get all course method
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:45:53 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 15:45:53 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:46:20 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 15:46:20 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:47:07 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 15:47:07 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:47:23 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 15:47:23 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 15:49:33 [info] [DepartmentController] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 15:49:33 [info] [DepartmentService] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 15:49:33 [info] [DepartmentDao] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 15:49:33 [info] [DepartmentDao] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 15:49:33 [debug] [DepartmentService] [None] department service response {"name":"dept test","id":"5921cda1-78a2-4803-990f-8adf96e0f7d1","created_at":"2023-05-18T10:19:33.785Z"}
+[Build] 1.0 -2023-05-18 15:49:33 [info] [DepartmentService] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 15:49:33 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 15:49:33 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 15:49:33 [debug] [ResponseUtility] [None] Method type POST
+[Build] 1.0 -2023-05-18 15:49:33 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 15:49:33 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-18 15:49:33 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"dept test","id":"5921cda1-78a2-4803-990f-8adf96e0f7d1","created_at":"2023-05-18T10:19:33.785Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 15:49:33 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 15:49:33 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept test","id":"5921cda1-78a2-4803-990f-8adf96e0f7d1","created_at":"2023-05-18T10:19:33.785Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 15:49:33 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"dept test","id":"5921cda1-78a2-4803-990f-8adf96e0f7d1","created_at":"2023-05-18T10:19:33.785Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 15:49:33 [info] [DepartmentController] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 15:50:07 [info] [DepartmentController] [None] Enter editDepartment method
+[Build] 1.0 -2023-05-18 15:50:07 [info] [DepartmentService] [None] Enter editDepartment method
+[Build] 1.0 -2023-05-18 15:50:07 [info] [DepartmentDao] [None] Enter editDepartment in dao method
+[Build] 1.0 -2023-05-18 15:50:07 [info] [DepartmentDao] [None] End editDepartment in dao method
+[Build] 1.0 -2023-05-18 15:50:07 [debug] [DepartmentService] [None] department service response {"generatedMaps":[],"raw":[],"affected":1}
+[Build] 1.0 -2023-05-18 15:50:07 [info] [DepartmentService] [None] End editDepartment method
+[Build] 1.0 -2023-05-18 15:50:07 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 15:50:07 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 15:50:07 [debug] [ResponseUtility] [None] Method type POST
+[Build] 1.0 -2023-05-18 15:50:07 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 15:50:07 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-18 15:50:07 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"generatedMaps":[],"raw":[],"affected":1},"message":"Department updated successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 15:50:07 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 15:50:07 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"generatedMaps":[],"raw":[],"affected":1},"message":"Department updated successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 15:50:07 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"generatedMaps":[],"raw":[],"affected":1},"message":"Department updated successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 15:50:07 [info] [DepartmentController] [None] End editDepartment method
+[Build] 1.0 -2023-05-18 15:50:28 [info] [DepartmentController] [None] Enter get all department method
+[Build] 1.0 -2023-05-18 15:50:28 [info] [DepartmentService] [None] Enter getAllDepartment method
+[Build] 1.0 -2023-05-18 15:50:28 [info] [DepartmentDao] [None] Enter getAllDepartment in dao method
+[Build] 1.0 -2023-05-18 15:50:28 [info] [DepartmentDao] [None] End getAllDepartment in dao method
+[Build] 1.0 -2023-05-18 15:50:28 [debug] [DepartmentService] [None] department service response [{"id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","name":"sci","created_at":"2023-05-05T11:03:49.532Z","student":[{"id":"63ae7015-45f6-4c79-8117-c071c322d038","email":"akshay3@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:50:40.948Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"78f15671-4010-4a30-abe7-00dea2611e24","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:52:38.313Z","courses":[{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"}]},{"id":"9f28b5ef-cb69-45ad-a7af-248e5c9cc572","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:53:59.698Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"8f6080da-3e43-49bd-93c7-7faea33b67af","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:54:39.792Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"2e7eba6f-1532-4d84-a545-e9e6e3ebe6cd","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:55:18.731Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"402b85d2-603d-4907-b908-fc51d99900c8","email":"satyam@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:19:50.231Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"3c5ba9c0-2e1d-4739-9829-cb255ce44d99","email":"savdi@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:23:06.609Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"e93aa0fa-5e1b-4571-b3dd-f50f349c0d2f","email":"savdi123@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T12:46:16.369Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"c37970f4-7b1f-4856-a920-bbf15a3d2109","email":"test666@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T13:36:43.906Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"48184ca3-bd2f-4bf0-81a8-88a5ab80ec4c","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:17:08.820Z","courses":[]},{"id":"02af83b9-8ced-4851-bc78-cdbe6de2e4ba","email":"tushar@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-05T11:27:10.804Z","courses":[]},{"id":"55fe5d0e-f2ec-43a9-abc9-ff527a54a467","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.740Z","courses":[]},{"id":"6fb788ae-e179-426e-8cdc-75bc0777ced7","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:05:50.326Z","courses":[]},{"id":"7b3d2aed-1e0d-4ec5-906e-b5a3ebda1b26","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.728Z","courses":[]}]},{"id":"362857a4-e794-401c-801e-a2cee617323b","name":"dept 112","created_at":"2023-05-15T06:45:41.818Z","student":[]},{"id":"682bf564-2d3c-44a0-8412-9c8a02d89080","name":"dept 888","created_at":"2023-05-15T09:25:19.999Z","student":[]},{"id":"be4b54a2-2ba8-4259-af79-6821907b7c85","name":"dept 10","created_at":"2023-05-12T10:07:27.415Z","student":[]},{"id":"16e9976b-5d09-4b00-bb1d-8cae0004e79f","name":"dept 777","created_at":"2023-05-15T06:50:13.181Z","student":[]},{"id":"24f89f9b-3adc-4d02-aad3-7fc16ddb84e3","name":"dept 11","created_at":"2023-05-12T10:13:05.895Z","student":[]},{"id":"5921cda1-78a2-4803-990f-8adf96e0f7d1","name":"dept test1","created_at":"2023-05-18T10:19:33.785Z","student":[]}]
+[Build] 1.0 -2023-05-18 15:50:28 [info] [DepartmentService] [None] End getAllDepartment method
+[Build] 1.0 -2023-05-18 15:50:28 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 15:50:28 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 15:50:28 [debug] [ResponseUtility] [None] Method type GET
+[Build] 1.0 -2023-05-18 15:50:28 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 15:50:28 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-05-18 15:50:28 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":[{"id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","name":"sci","created_at":"2023-05-05T11:03:49.532Z","student":[{"id":"63ae7015-45f6-4c79-8117-c071c322d038","email":"akshay3@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:50:40.948Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"78f15671-4010-4a30-abe7-00dea2611e24","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:52:38.313Z","courses":[{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"}]},{"id":"9f28b5ef-cb69-45ad-a7af-248e5c9cc572","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:53:59.698Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"8f6080da-3e43-49bd-93c7-7faea33b67af","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:54:39.792Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"2e7eba6f-1532-4d84-a545-e9e6e3ebe6cd","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:55:18.731Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"402b85d2-603d-4907-b908-fc51d99900c8","email":"satyam@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:19:50.231Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"3c5ba9c0-2e1d-4739-9829-cb255ce44d99","email":"savdi@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:23:06.609Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"e93aa0fa-5e1b-4571-b3dd-f50f349c0d2f","email":"savdi123@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T12:46:16.369Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"c37970f4-7b1f-4856-a920-bbf15a3d2109","email":"test666@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T13:36:43.906Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"48184ca3-bd2f-4bf0-81a8-88a5ab80ec4c","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:17:08.820Z","courses":[]},{"id":"02af83b9-8ced-4851-bc78-cdbe6de2e4ba","email":"tushar@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-05T11:27:10.804Z","courses":[]},{"id":"55fe5d0e-f2ec-43a9-abc9-ff527a54a467","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.740Z","courses":[]},{"id":"6fb788ae-e179-426e-8cdc-75bc0777ced7","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:05:50.326Z","courses":[]},{"id":"7b3d2aed-1e0d-4ec5-906e-b5a3ebda1b26","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.728Z","courses":[]}]},{"id":"362857a4-e794-401c-801e-a2cee617323b","name":"dept 112","created_at":"2023-05-15T06:45:41.818Z","student":[]},{"id":"682bf564-2d3c-44a0-8412-9c8a02d89080","name":"dept 888","created_at":"2023-05-15T09:25:19.999Z","student":[]},{"id":"be4b54a2-2ba8-4259-af79-6821907b7c85","name":"dept 10","created_at":"2023-05-12T10:07:27.415Z","student":[]},{"id":"16e9976b-5d09-4b00-bb1d-8cae0004e79f","name":"dept 777","created_at":"2023-05-15T06:50:13.181Z","student":[]},{"id":"24f89f9b-3adc-4d02-aad3-7fc16ddb84e3","name":"dept 11","created_at":"2023-05-12T10:13:05.895Z","student":[]},{"id":"5921cda1-78a2-4803-990f-8adf96e0f7d1","name":"dept test1","created_at":"2023-05-18T10:19:33.785Z","student":[]}],"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 15:50:28 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 15:50:28 [debug] [DepartmentController] [None] Department response {"res_data":{"data":[{"id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","name":"sci","created_at":"2023-05-05T11:03:49.532Z","student":[{"id":"63ae7015-45f6-4c79-8117-c071c322d038","email":"akshay3@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:50:40.948Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"78f15671-4010-4a30-abe7-00dea2611e24","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:52:38.313Z","courses":[{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"}]},{"id":"9f28b5ef-cb69-45ad-a7af-248e5c9cc572","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:53:59.698Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"8f6080da-3e43-49bd-93c7-7faea33b67af","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:54:39.792Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"2e7eba6f-1532-4d84-a545-e9e6e3ebe6cd","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:55:18.731Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"402b85d2-603d-4907-b908-fc51d99900c8","email":"satyam@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:19:50.231Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"3c5ba9c0-2e1d-4739-9829-cb255ce44d99","email":"savdi@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:23:06.609Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"e93aa0fa-5e1b-4571-b3dd-f50f349c0d2f","email":"savdi123@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T12:46:16.369Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"c37970f4-7b1f-4856-a920-bbf15a3d2109","email":"test666@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T13:36:43.906Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"48184ca3-bd2f-4bf0-81a8-88a5ab80ec4c","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:17:08.820Z","courses":[]},{"id":"02af83b9-8ced-4851-bc78-cdbe6de2e4ba","email":"tushar@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-05T11:27:10.804Z","courses":[]},{"id":"55fe5d0e-f2ec-43a9-abc9-ff527a54a467","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.740Z","courses":[]},{"id":"6fb788ae-e179-426e-8cdc-75bc0777ced7","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:05:50.326Z","courses":[]},{"id":"7b3d2aed-1e0d-4ec5-906e-b5a3ebda1b26","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.728Z","courses":[]}]},{"id":"362857a4-e794-401c-801e-a2cee617323b","name":"dept 112","created_at":"2023-05-15T06:45:41.818Z","student":[]},{"id":"682bf564-2d3c-44a0-8412-9c8a02d89080","name":"dept 888","created_at":"2023-05-15T09:25:19.999Z","student":[]},{"id":"be4b54a2-2ba8-4259-af79-6821907b7c85","name":"dept 10","created_at":"2023-05-12T10:07:27.415Z","student":[]},{"id":"16e9976b-5d09-4b00-bb1d-8cae0004e79f","name":"dept 777","created_at":"2023-05-15T06:50:13.181Z","student":[]},{"id":"24f89f9b-3adc-4d02-aad3-7fc16ddb84e3","name":"dept 11","created_at":"2023-05-12T10:13:05.895Z","student":[]},{"id":"5921cda1-78a2-4803-990f-8adf96e0f7d1","name":"dept test1","created_at":"2023-05-18T10:19:33.785Z","student":[]}],"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 15:50:28 [debug] [DepartmentController] [None] Department response {"res_data":{"data":[{"id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","name":"sci","created_at":"2023-05-05T11:03:49.532Z","student":[{"id":"63ae7015-45f6-4c79-8117-c071c322d038","email":"akshay3@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:50:40.948Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"},{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"78f15671-4010-4a30-abe7-00dea2611e24","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:52:38.313Z","courses":[{"id":"88f4ea01-c32f-4c71-addd-3be292e914c5","name":"hindi","created_at":"2023-05-09T12:52:38.313Z"}]},{"id":"9f28b5ef-cb69-45ad-a7af-248e5c9cc572","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:53:59.698Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"8f6080da-3e43-49bd-93c7-7faea33b67af","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:54:39.792Z","courses":[{"id":"6459b54f-0f9f-4830-b2d7-d48e33ae5434","name":"hindi","created_at":"2023-05-09T11:59:13.865Z"}]},{"id":"2e7eba6f-1532-4d84-a545-e9e6e3ebe6cd","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:55:18.731Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"402b85d2-603d-4907-b908-fc51d99900c8","email":"satyam@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:19:50.231Z","courses":[{"id":"9e00bec6-c6fb-4086-9b3a-daf1668e3c88","name":"sci","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"3c5ba9c0-2e1d-4739-9829-cb255ce44d99","email":"savdi@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:23:06.609Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"e93aa0fa-5e1b-4571-b3dd-f50f349c0d2f","email":"savdi123@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T12:46:16.369Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"},{"id":"0e93120c-d56a-4c0c-876b-a665eecaed4a","name":"tech","created_at":"2023-05-09T11:58:47.851Z"}]},{"id":"c37970f4-7b1f-4856-a920-bbf15a3d2109","email":"test666@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-11T13:36:43.906Z","courses":[{"id":"91a93eea-9734-4245-b3e0-bf818df36a7a","name":"math","created_at":"2023-05-09T12:50:40.948Z"}]},{"id":"48184ca3-bd2f-4bf0-81a8-88a5ab80ec4c","email":"dhruv@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T13:17:08.820Z","courses":[]},{"id":"02af83b9-8ced-4851-bc78-cdbe6de2e4ba","email":"tushar@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-05T11:27:10.804Z","courses":[]},{"id":"55fe5d0e-f2ec-43a9-abc9-ff527a54a467","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.740Z","courses":[]},{"id":"6fb788ae-e179-426e-8cdc-75bc0777ced7","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-09T12:05:50.326Z","courses":[]},{"id":"7b3d2aed-1e0d-4ec5-906e-b5a3ebda1b26","email":"akshay@gmail.com","password":"abc","department_id":"0c3bf9e2-546b-428f-af6d-4f9713e6c25f","created_at":"2023-05-08T13:11:32.728Z","courses":[]}]},{"id":"362857a4-e794-401c-801e-a2cee617323b","name":"dept 112","created_at":"2023-05-15T06:45:41.818Z","student":[]},{"id":"682bf564-2d3c-44a0-8412-9c8a02d89080","name":"dept 888","created_at":"2023-05-15T09:25:19.999Z","student":[]},{"id":"be4b54a2-2ba8-4259-af79-6821907b7c85","name":"dept 10","created_at":"2023-05-12T10:07:27.415Z","student":[]},{"id":"16e9976b-5d09-4b00-bb1d-8cae0004e79f","name":"dept 777","created_at":"2023-05-15T06:50:13.181Z","student":[]},{"id":"24f89f9b-3adc-4d02-aad3-7fc16ddb84e3","name":"dept 11","created_at":"2023-05-12T10:13:05.895Z","student":[]},{"id":"5921cda1-78a2-4803-990f-8adf96e0f7d1","name":"dept test1","created_at":"2023-05-18T10:19:33.785Z","student":[]}],"message":"Department fatch successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 15:50:28 [info] [DepartmentController] [None] End get all department method
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 15:51:07 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 15:51:07 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 15:51:40 [info] [DepartmentController] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 15:51:40 [info] [DepartmentService] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 15:51:40 [info] [DepartmentDao] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 15:51:40 [info] [DepartmentDao] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 15:51:40 [debug] [DepartmentService] [None] department service response {"name":123,"id":"d72a1017-874a-4448-8c24-d73be0cfcff8","created_at":"2023-05-18T10:21:40.382Z"}
+[Build] 1.0 -2023-05-18 15:51:40 [info] [DepartmentService] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 15:51:40 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 15:51:40 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 15:51:40 [debug] [ResponseUtility] [None] Method type POST
+[Build] 1.0 -2023-05-18 15:51:40 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 15:51:40 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-18 15:51:40 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":123,"id":"d72a1017-874a-4448-8c24-d73be0cfcff8","created_at":"2023-05-18T10:21:40.382Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 15:51:40 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 15:51:40 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":123,"id":"d72a1017-874a-4448-8c24-d73be0cfcff8","created_at":"2023-05-18T10:21:40.382Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 15:51:40 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":123,"id":"d72a1017-874a-4448-8c24-d73be0cfcff8","created_at":"2023-05-18T10:21:40.382Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 15:51:40 [info] [DepartmentController] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 15:57:01 [info] [DepartmentController] [None] Enter remove department method
+[Build] 1.0 -2023-05-18 15:57:01 [info] [DepartmentService] [None] Enter deleteDepartment service method
+[Build] 1.0 -2023-05-18 15:57:01 [info] [DepartmentDao] [None] Enter deleteDepartment in dao method
+[Build] 1.0 -2023-05-18 15:57:01 [info] [DepartmentDao] [None] End deleteDepartment in dao method
+[Build] 1.0 -2023-05-18 15:57:01 [debug] [DepartmentService] [None] department service response {"raw":[],"affected":1}
+[Build] 1.0 -2023-05-18 15:57:01 [info] [DepartmentService] [None] End editDepartment service method
+[Build] 1.0 -2023-05-18 15:57:01 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 15:57:01 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 15:57:01 [debug] [ResponseUtility] [None] Method type DELETE
+[Build] 1.0 -2023-05-18 15:57:01 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 15:57:01 [debug] [ResponseUtility] [None] Status code :: 200
+[Build] 1.0 -2023-05-18 15:57:01 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"raw":[],"affected":1},"message":"Department removed successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 15:57:01 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 15:57:01 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"raw":[],"affected":1},"message":"Department removed successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 15:57:01 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"raw":[],"affected":1},"message":"Department removed successfully.","status_code":200}}
+[Build] 1.0 -2023-05-18 15:57:01 [info] [DepartmentController] [None] End delete department method
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:41:57 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 16:41:57 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 16:42:35 [info] [DepartmentController] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 16:42:35 [info] [DepartmentService] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 16:42:35 [info] [DepartmentDao] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 16:42:35 [info] [DepartmentDao] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 16:42:35 [debug] [DepartmentService] [None] department service response {"name":"test dept","id":"fdc3558d-7dfe-41da-97d4-f94a45b154a2","created_at":"2023-05-18T11:12:35.870Z"}
+[Build] 1.0 -2023-05-18 16:42:35 [info] [DepartmentService] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 16:42:35 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 16:42:35 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 16:42:35 [debug] [ResponseUtility] [None] Method type POST
+[Build] 1.0 -2023-05-18 16:42:35 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 16:42:35 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-18 16:42:35 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":null,"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 16:42:35 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 16:42:35 [debug] [DepartmentController] [None] Department response {"res_data":{"data":null,"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 16:42:35 [debug] [DepartmentController] [None] Department response {"res_data":{"data":null,"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 16:42:35 [info] [DepartmentController] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:43:50 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 16:43:50 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 16:43:56 [info] [DepartmentController] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 16:43:56 [info] [DepartmentService] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 16:43:56 [info] [DepartmentDao] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 16:43:56 [info] [DepartmentDao] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 16:43:56 [debug] [DepartmentService] [None] department service response {"name":"test dept 12","id":"7cc6a134-466e-4df6-8f2b-c90f4e3a419f","created_at":"2023-05-18T11:13:56.638Z"}
+[Build] 1.0 -2023-05-18 16:43:56 [info] [DepartmentService] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 16:43:56 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 16:43:56 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 16:43:56 [debug] [ResponseUtility] [None] Method type POST
+[Build] 1.0 -2023-05-18 16:43:56 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 16:43:56 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-18 16:43:56 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":null,"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 16:43:56 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 16:43:56 [debug] [DepartmentController] [None] Department response {"res_data":{"data":null,"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 16:43:56 [debug] [DepartmentController] [None] Department response {"res_data":{"data":null,"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 16:43:56 [info] [DepartmentController] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:44:21 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 16:44:21 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:44:46 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 16:44:46 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:45:00 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 16:45:00 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:45:48 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 16:45:48 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 16:45:52 [info] [DepartmentController] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 16:45:52 [info] [DepartmentService] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 16:45:52 [info] [DepartmentDao] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 16:45:52 [info] [DepartmentDao] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 16:45:52 [debug] [DepartmentService] [None] department service response {"name":"test dept 123","id":"e5af123c-44c3-4671-b050-99b233aecd2b","created_at":"2023-05-18T11:15:52.452Z"}
+[Build] 1.0 -2023-05-18 16:45:52 [info] [DepartmentService] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 16:45:52 [info] [ResponseUtility] [None] Enter Enter getResponse method method
+[Build] 1.0 -2023-05-18 16:45:52 [info] [ResponseUtility] [None] Enter Enter getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 16:45:52 [debug] [ResponseUtility] [None] Method type POST
+[Build] 1.0 -2023-05-18 16:45:52 [info] [ResponseUtility] [None] End End getReqMethodTypeStatusCode method method
+[Build] 1.0 -2023-05-18 16:45:52 [debug] [ResponseUtility] [None] Status code :: 201
+[Build] 1.0 -2023-05-18 16:45:52 [debug] [ResponseUtility] [None] Response :: {"res_data":{"data":{"name":"test dept 123","id":"e5af123c-44c3-4671-b050-99b233aecd2b","created_at":"2023-05-18T11:15:52.452Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 16:45:52 [info] [ResponseUtility] [None] End End getResponse method method
+[Build] 1.0 -2023-05-18 16:45:52 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"test dept 123","id":"e5af123c-44c3-4671-b050-99b233aecd2b","created_at":"2023-05-18T11:15:52.452Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 16:45:52 [debug] [DepartmentController] [None] Department response {"res_data":{"data":{"name":"test dept 123","id":"e5af123c-44c3-4671-b050-99b233aecd2b","created_at":"2023-05-18T11:15:52.452Z"},"message":"Department created successfully.","status_code":201}}
+[Build] 1.0 -2023-05-18 16:45:52 [info] [DepartmentController] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:46:04 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 16:46:04 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 16:46:38 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 16:46:38 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:25:21 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 17:25:21 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 17:25:25 [info] [DepartmentController] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 17:25:25 [info] [DepartmentService] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 17:25:25 [info] [DepartmentDao] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 17:25:25 [info] [DepartmentDao] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 17:25:25 [debug] [DepartmentService] [None] department service response {"name":"test dept 123","id":"78a3c84a-74e0-4623-ad17-2a74370786c8","created_at":"2023-05-18T11:55:25.079Z"}
+[Build] 1.0 -2023-05-18 17:25:25 [error] [DepartmentService] [Error: Error while performing logic.............
+    at DepartmentService.addDepartment (/home/gwl/Desktop/bolier-plate/bestpracticepro-nodejs/src/service/department.service.ts:36:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)] Error while performing logic.............
+[Build] 1.0 -2023-05-18 17:25:25 [error] [DepartmentService] [] ApiException: Error while save department data into db.
+    at Function.create (/home/gwl/Desktop/bolier-plate/bestpracticepro-nodejs/src/common/exception/api.exception.ts:45:17)
+    at DepartmentService.addDepartment (/home/gwl/Desktop/bolier-plate/bestpracticepro-nodejs/src/service/department.service.ts:47:28)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Build] 1.0 -2023-05-18 17:25:25 [info] [ResponseUtility] [None] Enter Enter getErrorResponse method method
+[Build] 1.0 -2023-05-18 17:25:25 [error] [ExceptionsHandler] [TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Function.getErrorResponse (/home/gwl/Desktop/bolier-plate/bestpracticepro-nodejs/src/common/utility/response.utility.ts:61:28)
+    at DepartmentController.addDepartment (/home/gwl/Desktop/bolier-plate/bestpracticepro-nodejs/src/controller/department.controller.ts:57:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/gwl/Desktop/bolier-plate/bestpracticepro-nodejs/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/gwl/Desktop/bolier-plate/bestpracticepro-nodejs/node_modules/@nestjs/core/router/router-proxy.js:9:17] Cannot read properties of undefined (reading 'statusCode')
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:25:42 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 17:25:42 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 17:25:48 [info] [DepartmentController] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 17:25:48 [info] [DepartmentService] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 17:25:48 [info] [DepartmentDao] [None] Enter addDepartment method
+[Build] 1.0 -2023-05-18 17:25:48 [info] [DepartmentDao] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 17:25:48 [debug] [DepartmentService] [None] department service response {"name":"test dept 123","id":"8b703b1d-befd-4ce7-bc58-3cff3cf3ee2c","created_at":"2023-05-18T11:55:48.328Z"}
+[Build] 1.0 -2023-05-18 17:25:48 [error] [DepartmentService] [ApiException: Error while save department data into db.
+    at Function.create (/home/gwl/Desktop/bolier-plate/bestpracticepro-nodejs/src/common/exception/api.exception.ts:45:17)
+    at DepartmentService.addDepartment (/home/gwl/Desktop/bolier-plate/bestpracticepro-nodejs/src/service/department.service.ts:37:26)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)] Error while save department data into db.
+[Build] 1.0 -2023-05-18 17:25:48 [info] [ResponseUtility] [None] Enter Enter getErrorResponse method method
+[Build] 1.0 -2023-05-18 17:25:48 [debug] [ResponseUtility] [None] JSON Error response:: {"error":{"status_code":500,"code":5001,"message":"5001-Error while save department data into db.","org_exp_message":"Error while save department data into db."}}
+[Build] 1.0 -2023-05-18 17:25:48 [info] [ResponseUtility] [None] End End getErrorResponse method method
+[Build] 1.0 -2023-05-18 17:25:48 [debug] [DepartmentController] [None] Department response {"error":{"status_code":500,"code":5001,"message":"5001-Error while save department data into db.","org_exp_message":"Error while save department data into db."}}
+[Build] 1.0 -2023-05-18 17:25:48 [info] [DepartmentController] [None] End addDepartment method
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:27:11 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 17:27:11 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:29:50 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 17:29:50 [info] [NestApplication] [None] Nest application successfully started
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RoutesResolver] [None] AppController {/}:
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/, GET} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RoutesResolver] [None] DepartmentController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/department/addDepartment, POST} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/department/editDepartment, POST} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/department/deleteDepartment/:id, DELETE} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/department/getAllDepartment, GET} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RoutesResolver] [None] StudentController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudent, POST} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/student/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudentDetail, POST} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/student/editStudent, POST} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/student/getAllStudent, GET} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RoutesResolver] [None] TeacherController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addTeacher, POST} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/addStudentDetails, POST} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/teacher/getAllTeacher, GET} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RoutesResolver] [None] CourseController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/course/addCourse, POST} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/course/editCourse, POST} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/course/deleteCourse/:id, DELETE} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/course/getAllCourse, GET} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RoutesResolver] [None] CommonController {/api/v1}:
+[Build] 1.0 -2023-05-18 17:41:59 [info] [RouterExplorer] [None] Mapped {/api/v1/common/log/level, PUT} route
+[Build] 1.0 -2023-05-18 17:41:59 [info] [NestApplication] [None] Nest application successfully started
